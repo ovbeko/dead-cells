@@ -1,0 +1,261 @@
+body{
+	margin: 0;
+	font-family: krueger;
+}
+html {
+	overflow-x: hidden;
+}
+@font-face {
+	font-family: "krueger";
+	src: url("krueger.ttf");
+}
+.bg-main {
+	background: #040011;
+}
+.starter-img {
+	background-image: url(images/starter-img.png);
+	background-size: 100% 100%;
+	background-position: center;
+	height: 100vh;
+}
+.header {
+	height: 10vh;
+	background: rgba(4, 0, 17, 0.95);
+}
+.logo {
+	background: url(images/logo.png);
+	background-size: 100% 100%;
+	width: 25vh;
+	height: 9vh;
+	margin-top: 0.5vh;
+	margin-left: 2vh;
+	transition: 0.3s;
+}
+.logo:hover {
+	background: url(images/logo-hover.png);
+	background-size: 100% 100%;
+}
+.text-header {
+	font-size: 8vh;
+	text-decoration: none;
+	text-decoration-color: black;
+	transition: 0.4s;
+}
+.text-header:hover {
+	text-decoration: underline;
+	opacity: 0.8;
+}
+.screenshot-1-1 {
+	background-image: url(images/screenshot-1.png);
+	background-size: 100% 100%;
+	border-radius: 1vh;
+	height: 22vh;
+}
+.screenshot-1-2 {
+	background-image: url(images/screenshot-2.png);
+	background-size: 100% 100%;
+	border-radius: 1vh;
+	height: 22vh;
+}
+.screenshot-2-1 {
+	background-image: url(images/screenshot-3.png);
+	background-size: 100% 100%;
+	border-radius: 1vh;
+	height: 22vh;
+}
+.screenshot-2-2 {
+	background-image: url(images/screenshot-4.png);
+	background-size: 100% 100%;
+	border-radius: 1vh;
+	height: 22vh;
+}
+.scale-hover {
+	transform: scale(1.0);
+	transition: 0.4s;
+}
+.scale-hover:hover {
+	transform: scale(1.025);
+	opacity: 0.8;
+}
+.big-text-hover {
+	transition: 0.4s;
+	text-decoration-color: black;
+}
+.big-text-hover:hover {
+	text-decoration: underline dashed;
+	opacity: 0.8;
+}
+.small-text-hover {
+	text-decoration: none;
+	text-decoration-color: black;
+	transition: 0.4s;
+}
+.small-text-hover:hover {
+	text-decoration: underline;
+	opacity: 0.8;
+}
+.cell {
+	background-image: url(images/cell.png);
+	background-size: 100% 100%;
+	width: 55vh;
+	height: 65vh;
+	transition: 0.4s;
+}
+.locations {
+	text-decoration: none;
+	transition: 0.4s;
+}
+.bilds {
+	text-decoration: none;
+	transition: 0.4s;
+}
+.mods {
+	text-decoration: none;
+	transition: 0.4s;
+}
+.footer {
+	background-image: url(images/footer-img.png);
+	background-size: 100% 100%;
+	height: 60vh;
+}
+.map-starter-img {
+	background-image: url(images/map-starter-img.png);
+	background-size: 100% 100%;
+	height: 100vh;
+}
+.fs-0 {
+	font-size: 14vh;
+}
+.map-img-1 {
+	background-image: url(images/1-1.png);
+	background-size: 100% 100%;
+	border-radius: 10px;
+	height: 25vh;
+	width: 60vh;
+}
+.map-img-2-1 {
+	background-image: url(images/2-1.png);
+	background-size: 100% 100%;
+	border-radius: 10px;
+	height: 25vh;
+	width: 60vh;
+}
+.map-img-2-2 {
+	background-image: url(images/2-2.png);
+	background-size: 100% 100%;
+	border-radius: 10px;
+	height: 25vh;
+	width: 60vh;
+}
+.map-img-3-1 {
+	background-image: url(images/3-1.png);
+	background-size: 100% 100%;
+	border-radius: 10px;
+	height: 25vh;
+	width: 60vh;
+}
+.map-img-3-2 {
+	background-image: url(images/3-2.png);
+	background-size: 100% 100%;
+	border-radius: 10px;
+	height: 25vh;
+	width: 60vh;
+}
+.map-img-3-3 {
+	background-image: url(images/3-3.png);
+	background-size: 100% 100%;
+	border-radius: 10px;
+	height: 25vh;
+	width: 60vh;
+}
+.map-img-4-1 {
+	background-image: url(images/4-1.png);
+	background-size: 100% 100%;
+	border-radius: 10px;
+	height: 25vh;
+	width: 60vh;
+}
+.map-img-4-2 {
+	background-image: url(images/4-2.png);
+	background-size: 100% 100%;
+	border-radius: 10px;
+	height: 25vh;
+	width: 60vh;
+}
+.map-img-4-3 {
+	background-image: url(images/4-3.png);
+	background-size: 100% 100%;
+	border-radius: 10px;
+	height: 25vh;
+	width: 60vh;
+}
+.map-img-4-4 {
+	background-image: url(images/4-4.png);
+	background-size: 100% 100%;
+	border-radius: 10px;
+	height: 25vh;
+	width: 60vh;
+}
+.map-img-bf {
+	background-image: url(images/bossfight-1.png);
+	background-size: 100% 100%;
+	border-radius: 10px;
+	height: 25vh;
+	width: 60vh;
+}.map-img-bf-2 {
+	background-image: url(images/bossfight-2.png);
+	background-size: 100% 100%;
+	border-radius: 10px;
+	height: 25vh;
+	width: 60vh;
+}
+.map-img-5-1 {
+	background-image: url(images/5-1.png);
+	background-size: 100% 100%;
+	border-radius: 10px;
+	height: 25vh;
+	width: 60vh;
+}
+.map-img-5-2 {
+	background-image: url(images/5-2.png);
+	background-size: 100% 100%;
+	border-radius: 10px;
+	height: 25vh;
+	width: 60vh;
+}
+.map-img-bf-3 {
+	background-image: url(images/bossfight-3.png);
+	background-size: 100% 100%;
+	border-radius: 10px;
+	height: 25vh;
+	width: 60vh;
+}
+.map-img-6-1 {
+	background-image: url(images/6-1.png);
+	background-size: 100% 100%;
+	border-radius: 10px;
+	height: 25vh;
+	width: 60vh;
+}
+.map-img-6-2 {
+	background-image: url(images/6-2.png);
+	background-size: 100% 100%;
+	border-radius: 10px;
+	height: 25vh;
+	width: 60vh;
+}
+.map-footer-img {
+	background-image: url(images/map-footer-img.png);
+	background-size: 100% 100%;
+	height: 70vh;
+}
+.top-starter-img {
+	background-image: url(images/top-starter-img.png);
+	background-size: 100% 100%;
+	height: 100vh;
+}
+.top-footer-img {
+	background-image: url(images/top-footer-img.png);
+	background-size: 100% 100%;
+	height: 70vh;
+}
